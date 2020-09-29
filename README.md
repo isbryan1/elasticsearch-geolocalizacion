@@ -6,8 +6,8 @@ Autor: Bryan Fuertes Malca (bryan87a@gmail.com)
 Prerequsitos:
 - ElasticSearch: 7.9.0
  
- Les dejo instruccion para ejecutar el servicio con Docker
- docker-compose -f docker-compose-elastic.yml up
+  Les dejo instruccion para ejecutar el servicio con Docker:
+  docker-compose -f docker-compose-elastic.yml up
  
  - Puede realizar las operaciones via Api Rest a traves de algun cliente como Postman, o Gitbash. En este ejemplo he usado Insomnia.
    consultas_elastic.json
