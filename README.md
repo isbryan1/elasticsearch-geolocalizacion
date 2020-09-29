@@ -3,7 +3,7 @@ elasticsearch javascript openstreetmap
 
 Autor: Bryan Fuertes Malca (bryan87a@gmail.com)
 
-Prerequsitos:
+Prerrequsitos:
 - ElasticSearch: 7.9.0
  
   Les dejo instruccion para ejecutar el servicio con Docker:
