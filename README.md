@@ -5,6 +5,7 @@ Autor: Bryan Fuertes Malca (bryan87a@gmail.com)
 
 Prerequsitos:
 - ElasticSearch: 7.9.0
+ 
  Les dejo instruccion para ejecutar el servicio con Docker
  docker-compose -f docker-compose-elastic.yml up
  
