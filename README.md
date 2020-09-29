@@ -13,7 +13,10 @@ Prerequsitos:
    consultas_elastic.json
  
  - Ficheros desarrollados
+ 
  map.html : En este fichero se define la maquetación HTML (Ejecute este fichero en su navegador de preferencia Google Chrome).
+ 
  style.css : En este fichero se define los estilos de la visualización.
+ 
  map.js : Aca se hace la magia. La parte mas importante es la función "getData" que es la encargada de generar el JSON con el que "getInfo" hace la llamada "POST" al 
          ElasticSearch para que le devuelva los datos.
