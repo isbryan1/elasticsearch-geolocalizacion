@@ -1,0 +1,30 @@
+version: '3'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.0
+    container_name: elasticsearch01
+    environment:
+      - discovery.type=single-node
+      - cluster.name=elasticsearch-cluster
+      - node.name=elasticsearch-node
+      - network.host=0.0.0.0
+      - xpack.security.enabled=false
+      - xpack.monitoring.enabled=false
+      - xpack.watcher.enabled=false
+      - xpack.ml.enabled=false
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - C:/tools/docker_apps/share/elastic:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+      - 9300:9300
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.9.0
+    container_name: kibana-elastic
+    ports:
+      - 5601:5601
