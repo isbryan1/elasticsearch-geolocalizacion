@@ -9,10 +9,10 @@ Prerrequsitos:
   Les dejo instruccion para ejecutar el servicio con Docker:
   docker-compose -f docker-compose-elastic.yml up
  
- - Puede realizar las operaciones via Api Rest a traves de algun cliente como Postman, o Gitbash. En este ejemplo he usado Insomnia.
-   consultas_elastic.json
+ - Puede realizar las operaciones Api Rest a traves de algun cliente como Postman, o Gitbash. En este ejemplo he usado Insomnia.
+   Importar consultas_elastic.json
  
- - Ficheros desarrollados
+ - Ficheros de la aplicación demo
  
   map.html : En este fichero se define la maquetación HTML (Ejecute este fichero en su navegador de preferencia Google Chrome).
  
